@@ -6,7 +6,7 @@ export * from './proPlayers/mod.ts';
 type apiKey = string | null;
 
 export let apiKey: apiKey = null;
-export let endpoint = 'https://api.opendota.com/';
+export let endpoint = 'https://api.opendota.com';
 
 export function setAPIKey(key: apiKey): void {
   apiKey = key;
